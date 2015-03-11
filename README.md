@@ -5,7 +5,7 @@ Create your Config
 ---------------
 
 Create a BitcoinDark.conf here:<br>
-C:\Users\<yourUsernmae>\AppData\Roaming\BitcoinDark\BitcoinDark.conf<br>
+C:\Users\ <yourUsername> \AppData\Roaming\BitcoinDark\BitcoinDark.conf<br>
 with the following content<br>
 <b>(Do not forget to change user and pass)</b><br>
 `rpcuser=user`<br>
