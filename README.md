@@ -3,7 +3,6 @@ A simple class for making calls to BitcoinDarks's API using PHP.
 
 Create your Config
 ---------------
-Create a file 
 
 Create a BitcoinDark.conf here:<br>
 C:\Users\<yourUsernmae>\AppData\Roaming\BitcoinDark\BitcoinDark.conf<br>
