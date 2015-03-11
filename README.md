@@ -8,13 +8,12 @@ Getting Started
 	`require_once('easybitcoinDark.php');`
 2. Initialize BitcoinDark connection/object:
 
-	`$bitcoinDark = new BitcoinDark('username','password');`
+	`$bitcoinDark = new BitcoinDark('username','password');`<br>
 
-	Optionally, you can specify a host, port. Default is HTTP on localhost port 14632.
-
+	Optionally, you can specify a host, port. Default is HTTP on localhost port 14632.<br>
 	`$bitcoinDark = new BitcoinDark('username','password','localhost','14632');`
 
-	If you wish to make an SSL connection you can set an optional CA certificate or leave blank
+	If you wish to make an SSL connection you can set an optional CA certificate or leave blank<br>
 	`$bitcoinDark->setSSL('/full/path/to/mycertificate.cert');`
 
 3. Make calls to bitcoind as methods for your object. Examples:
