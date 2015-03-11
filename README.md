@@ -3,7 +3,7 @@ A simple class for making calls to BitcoinDarks's API using PHP.
 
 Getting Started
 ---------------
-1. Include easybitcoin.php into your PHP script:
+1. Include easybitcoinDark.php into your PHP script:
 
 	`require_once('easybitcoinDark.php');`
 2. Initialize BitcoinDark connection/object:
