@@ -18,11 +18,11 @@ Getting Started
 
 3. Make calls to bitcoind as methods for your object. Examples:
 
-  `$bitcoinDark->getinfo();`
+  `$bitcoinDark->getinfo();`<br>
   
-  `print_r($bitcoinDark);`
-  `echo'<hr>';`
-  `$balance = $bitcoinDark->{'response'}['result']['balance'];`
+  `print_r($bitcoinDark);`<br>
+  `echo'<hr>';`<br>
+  `$balance = $bitcoinDark->{'response'}['result']['balance'];`<br>
   
   `print_r($balance);`
 
