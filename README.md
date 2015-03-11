@@ -5,7 +5,10 @@ Create your Config
 ---------------
 
 Create a BitcoinDark.conf here:<br>
+<u>Windows</u><br>
 C:\Users\yourUsername\AppData\Roaming\BitcoinDark\BitcoinDark.conf<br>
+<u>Linux</u><br>
+/home/yourUsername/.BitcoinDark/BitcoinDark.conf<br>
 with the following content<br>
 <b>(Do not forget to change user and pass)</b><br>
 `rpcuser=user`<br>
