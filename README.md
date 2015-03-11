@@ -1,2 +1,27 @@
 # EasyBitcoinDark-PHP
 A simple class for making calls to BitcoinDarks's API using PHP.
+
+#Getting Started
+
+Include easybitcoinDark.php into your PHP script:
+
+require_once('easybitcoinDark.php');
+
+Initialize BitcoinDark connection/object:
+
+$bitcoinDark = new BitcoinDark('username','password');
+
+Optionally, you can specify a host, port. Default is HTTP on localhost port 14632.
+
+$bitcoinDark = new BitcoinDark('username','password','localhost','14632');
+
+If you wish to make an SSL connection you can set an optional CA certificate or leave blank $bitcoinDark->setSSL('/full/path/to/mycertificate.cert');
+
+Make calls to bitcoind as methods for your object. Examples:
+
+$bitcoinDark->getinfo();
+print_r($bitcoinDark);
+echo'<hr>';
+
+$balance = $bitcoinDark->{'response'}['result']['balance'];
+print_r($balance);
