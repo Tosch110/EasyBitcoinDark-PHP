@@ -91,3 +91,6 @@ Getting Started
   
   `print_r($balance);`
 
+Donations are welcome: 
+
+BitcoinDark: RH2ZML1J1gFDbEbuSnQkc2DvttZBgEAxkf
