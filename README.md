@@ -70,7 +70,7 @@ Getting Started
 ---------------
 1. Include easybitcoinDark.php into your PHP script:
 
-	`require_once('easybitcoinDark.php');`
+	`require_once('easyBitcoinDark.php');`
 2. Initialize BitcoinDark connection/object:
 
 	`$bitcoinDark = new BitcoinDark('username','password');`<br>
