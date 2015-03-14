@@ -1,5 +1,5 @@
 <?php
-require_once('easybitcoinDark.php');
+require_once('easyBitcoinDark.php');
  
 $bitcoinDark = new BitcoinDark('user','pass');
 
