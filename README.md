@@ -93,4 +93,4 @@ Getting Started
 
 Donations are welcome: 
 
-Opal: ocNCgPiYpETqEKteAfBbJrtzxApryGP5A5
+BitcoinDark: RH2ZML1J1gFDbEbuSnQkc2DvttZBgEAxkf
