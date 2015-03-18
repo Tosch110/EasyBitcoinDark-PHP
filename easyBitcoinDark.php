@@ -33,7 +33,7 @@ $bitcoinDark = new BitcoinDark('username','password','host','port');
 // If you wish to make an SSL connection you can set an optional CA certificate or leave blank
 // This will set the protocol to HTTPS and some CURL flags
 $bitcoinDark->setSSL('/full/path/to/mycertificate.cert');
-// Make calls to bitcoind as methods for your object. Responses are returned as an array.
+// Make calls to bitcoindarkd as methods for your object. Responses are returned as an array.
 // Examples:
 $bitcoinDark->getinfo();
 $bitcoinDark->getrawtransaction('0e3e2357e806b6cdb1f70b54c3a3a17b6714ee1f0e68bebb44a74b1efd512098',1);
@@ -140,11 +140,11 @@ class BitcoinDark {
             $this->error = $curl_error;
         }
         if ($this->response['error']) {
-            // If bitcoind returned an error, put that in $this->error
+            // If bitcoindarkd returned an error, put that in $this->error
             $this->error = $this->response['error']['message'];
         }
         elseif ($this->status != 200) {
-            // If bitcoind didn't return a nice error message, we need to make our own
+            // If bitcoindarkd didn't return a nice error message, we need to make our own
             switch ($this->status) {
                 case 400:
                     $this->error = 'HTTP_BAD_REQUEST';
