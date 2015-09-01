@@ -90,6 +90,12 @@ Getting Started
   `$balance = $bitcoinDark->{'response'}['result']['balance'];`<br>
   
   `print_r($balance);`
+  
+4. Try SuperNET API for example InstantDEX Orderbooks:
+	
+  `$bitcoinDark->SuperNET('{"plugin":"InstantDEX","method":"allorderbooks"}');`<br>
+
+See the SuperNET API documentation: http://api.supernet.org/
 
 Donations are welcome: 
 
