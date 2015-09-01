@@ -81,7 +81,7 @@ Getting Started
 	If you wish to make an SSL connection you can set an optional CA certificate or leave blank<br>
 	`$bitcoinDark->setSSL('/full/path/to/mycertificate.cert');`
 
-3. Make calls to bitcoind as methods for your object. Examples:
+3. Make calls to bitcoinDarkd as methods for your object. Examples:
 
   `$bitcoinDark->getinfo();`<br>
   
